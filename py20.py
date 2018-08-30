@@ -16,5 +16,5 @@ while True:
     try:
         dice()
     except KeyboardInterrupt:
-        print('Thanks for playing!')
+        print('\n'+'Thanks for playing!')
         sys.exit(0)
