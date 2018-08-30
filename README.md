@@ -11,5 +11,9 @@ A dice roller in python.
 2. cd py20/
 3. python3 py20.py
 
+### Credit:
+u/rzzzwilson  
+Reddit user for explaining the loop, I feel like a big dumb dummy. 
+
 ### License:
 http://www.wtfpl.net/txt/copying/
