@@ -2,10 +2,10 @@ import random as r
 
 def dice():
 
-    print("Which Die Do You Want To Roll?")
+    print("Choose a dice to roll from the list below:")
     print("[1]d100, [2]d20, [3]d12, [4]d10, [5]d8, [6]d6, [7]d4")
 
-    x = input(">> ")
+    x = input("Roll?: ")
     
     if x == 1: print("You rolled a d100 and got a " + str(r.randint(1, 100)))
     elif x == 2: print("You rolled a d20 and got a " + str(r.randint(1, 20)))
