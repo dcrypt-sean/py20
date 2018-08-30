@@ -1,3 +1,4 @@
+import sys
 import random as r
 
 class color:
@@ -12,4 +13,8 @@ def dice():
         print(color.RESULTS + str(r.randint(1, d_sides)) + color.RESET)
 
 while True:
+    try:
         dice()
+    except KeyboardInterrupt:
+        print('Thanks for playing!')
+        sys.exit(0)
