@@ -2,7 +2,7 @@
 A dice roller in python.
 
 ### TODO:
-* Add multiple die rolls.
+* ~~Add multiple die rolls.~~
 * Exploding die?
 * ~~Find a way to define the die rather than spelling it out, literally.~~
 
